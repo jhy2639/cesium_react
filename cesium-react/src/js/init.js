@@ -56,7 +56,7 @@ $(window).on("load", function () {
     sis3d.setEnabled(true);
 
     var tileset = new Cesium.Cesium3DTileset({
-        url: '../cesium3dlist/or3d/OR3D2_ATAT_cesium.json',
+        url: '/cesium3dList/or3d/OR3D2_ATAT_cesium.json',
         maximumScreenSpaceError: 1
     });
 
